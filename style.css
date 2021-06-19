@@ -4,6 +4,8 @@ html {
 
 body {
     margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1444837881208-4d46d5c1f127?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1201&q=80");
+    background-size: cover;
 }
 
 header {
@@ -44,18 +46,19 @@ h2 {
 main {
     max-width: 800px;
     margin: auto;
-    background: lightgrey;
+    padding-bottom: 20px;
+    background: #303030;
+    color: white;
 }
 
 .upper-icon {
     font-size: 20px;
-    position: fixed;
 }
 
 .main-image {
     padding: 20px;
     background-color: black;
-    color: white
+    margin: 20px;
 }
 
 .main-image img {
